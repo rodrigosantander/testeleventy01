@@ -1,0 +1,449 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CaniEmail, la guía indispensable para email developers - Friends of Email</title>
+    <meta name="description" content="Can I Email ofrece data verídica, constantemente actualizada sobre el soporte de etiquetas y atributos HTML y CSS usados en el desarrollo de email.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://friendsofemail.com/img/favico.png" />
+    
+    <!-- Facebook metadata -->
+    <link rel="image_src" href="https://friendsofemail.com/img/01-notas/004/fbimg.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CaniEmail, la guía indispensable para email developers" />
+    <meta property="og:description" content="Can I Email ofrece data verídica, constantemente actualizada sobre el soporte de etiquetas y atributos HTML y CSS usados en el desarrollo de email." />
+    <meta property="og:image" content="https://friendsofemail.com/img/01-notas/004/fbimg.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- Twitter Cards -->
+    <meta property="twitter:creator" content="@Ro_Santander" />
+    <meta property="twitter:url" content="https://friendsofemail.com" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@Ro_Santander" />
+    <meta property="twitter:title" content="CaniEmail, la guía indispensable para email developers" />
+    <meta property="twitter:description" content="Can I Email ofrece data verídica, constantemente actualizada sobre el soporte de etiquetas y atributos HTML y CSS usados en el desarrollo de email." />
+    <meta property="twitter:image:src" content="https://friendsofemail.com/img/01-notas/004/fbimg.jpg" />
+    <meta property="twitter:image:width" content="1200" />
+    <meta property="twitter:image:height" content="630" />
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/a11y-dark.css">
+</head>
+<body>
+    <div class="container containerMax" style="min-height: 100vh;">
+        <!-- NavBar -->
+<nav class="col-12 noPadding">
+    <div class="row row-eq-height align-items-center">
+        <div class="col-4 col-sm-3">
+            <a href="/">
+                <img src="/img/logo-friends-en.png" alt="Friends of Email" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-8 col-sm-9 navLinks">
+            <a href="/" >
+                Blog
+            </a>
+            <a href="/nosotros/" >
+                Nosotros
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- navBlog -->
+<div class="col-12 noPadding navBlog align-items-center">
+    <span>
+        Temas:
+    </span>
+    <a class="btn btnMain firstBtn" href="#EmailCode">
+        Email Code
+    </a>
+    <a class="btn btnMain btnUnactive" href="#EmailWorld">
+        Email
+    </a>
+    <a class="btn btnMain btnUnactive" href="#SFMC">
+        SFMC
+    </a>
+    <a class="btn btnMain btnUnactive" href="#todo">
+        Todo
+    </a>
+</div>
+
+        
+        <main>
+            
+<!-- mainContent -->
+<section class="col-12 mainContent">
+    <div class="row mainContentRow">
+        <!-- breadcrumbs -->
+        <div class="col-12 noPadding">
+            <div class="row row-eq-height">
+                <div class="col-12 col-md-6">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Blog</a></li>
+                            <li class="breadcrumb-item"><a href="/">Email</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">🗓️ 14 junio 2022</li>
+                        </ol>
+                    </nav>    
+                </div>
+                <div class="col-12 col-md-6 titleAuthor">
+                    <img src="/img/author-01-rodrigo.png" alt="" class="titleAuthorImg">
+                    <span>Rodrigo Santander</span>
+                </div>
+            </div>
+        </div>
+        <!-- title -->
+        <div class="col-12 noPadding imgTitle">
+            <h1>CaniEmail, la guía indispensable para email developers</h1>
+            
+                <img src="/img/01-notas/004/img-title.jpg" alt="CaniEmail - Email Development Compatibility" class="img-fluid imgRound">
+            
+        </div>
+        <!-- postContent -->
+        <div class="col-12 noPadding postContent">
+            <p>Si eres email developer, seguramente conoces la frustración de descubrir que ese CSS perfectamente diseñado no funciona en Outlook, o que esa propiedad HTML moderna no es soportada por Gmail. <strong>CaniEmail</strong> es la solución a estos problemas.</p>
+<h2 id="que-es-caniemail" tabindex="-1">¿Qué es CaniEmail? <a class="direct-link" href="#que-es-caniemail" aria-hidden="true">#</a></h2>
+<p><strong>CaniEmail</strong> es el equivalente de &quot;Can I Use&quot; pero específico para desarrollo de email. Es una base de datos exhaustiva que muestra el soporte de características HTML y CSS en diferentes clientes de correo electrónico.</p>
+<div class="col-12 mt-4 pt-4 mb-4 pb-4">
+    <div class="row row-eq-height justify-content-center">
+        <div class="col-12 col-md-8">
+            <img src="/img/01-notas/004/img-scoreboard.jpg" alt="CaniEmail compatibility scoreboard" class="img-fluid">
+        </div>
+    </div>
+</div>
+<h2 id="caracteristicas-principales" tabindex="-1">Características Principales <a class="direct-link" href="#caracteristicas-principales" aria-hidden="true">#</a></h2>
+<h3 id="1.-base-de-datos-completa" tabindex="-1">1. Base de Datos Completa <a class="direct-link" href="#1.-base-de-datos-completa" aria-hidden="true">#</a></h3>
+<p>CaniEmail cubre:</p>
+<ul>
+<li><strong>HTML tags y atributos</strong></li>
+<li><strong>Propiedades CSS</strong></li>
+<li><strong>Media queries</strong></li>
+<li><strong>Características específicas de email</strong></li>
+</ul>
+<h3 id="2.-datos-actualizados" tabindex="-1">2. Datos Actualizados <a class="direct-link" href="#2.-datos-actualizados" aria-hidden="true">#</a></h3>
+<p>La información se mantiene actualizada con:</p>
+<ul>
+<li>Pruebas constantes</li>
+<li>Comunidad activa</li>
+<li>Verificación manual</li>
+<li>Historial de cambios</li>
+</ul>
+<h3 id="3.-interfaz-intuitiva" tabindex="-1">3. Interfaz Intuitiva <a class="direct-link" href="#3.-interfaz-intuitiva" aria-hidden="true">#</a></h3>
+<ul>
+<li>Búsqueda rápida</li>
+<li>Filtros por cliente de correo</li>
+<li>Comparación side-by-side</li>
+<li>Exportación de datos</li>
+</ul>
+<h2 id="clientes-de-correo-soportados" tabindex="-1">Clientes de Correo Soportados <a class="direct-link" href="#clientes-de-correo-soportados" aria-hidden="true">#</a></h2>
+<div class="row mt-4 mb-4">
+    <div class="col-12 col-md-6 text-center mb-3">
+        <img src="/img/01-notas/004/img-settings.jpg" alt="Configuración de clientes en CaniEmail" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-6 text-center mb-3">
+        <img src="/img/01-notas/004/img-support.jpg" alt="Soporte de características" class="img-fluid">
+    </div>
+</div>
+<p>CaniEmail cubre los principales clientes de correo:</p>
+<h3 id="desktop" tabindex="-1">Desktop <a class="direct-link" href="#desktop" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Outlook</strong> (todas las versiones)</li>
+<li><strong>Apple Mail</strong></li>
+<li><strong>Thunderbird</strong></li>
+<li><strong>Windows Mail</strong></li>
+</ul>
+<h3 id="webmail" tabindex="-1">Webmail <a class="direct-link" href="#webmail" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>Gmail</strong></li>
+<li><strong><a href="http://Outlook.com">Outlook.com</a></strong></li>
+<li><strong>Yahoo Mail</strong></li>
+<li><strong>AOL Mail</strong></li>
+</ul>
+<h3 id="mobile" tabindex="-1">Mobile <a class="direct-link" href="#mobile" aria-hidden="true">#</a></h3>
+<ul>
+<li><strong>iOS Mail</strong></li>
+<li><strong>Gmail App</strong></li>
+<li><strong>Outlook App</strong></li>
+<li><strong>Samsung Email</strong></li>
+</ul>
+<h2 id="como-usar-caniemail" tabindex="-1">Cómo Usar CaniEmail <a class="direct-link" href="#como-usar-caniemail" aria-hidden="true">#</a></h2>
+<h3 id="1.-busqueda-de-caracteristicas" tabindex="-1">1. Búsqueda de Características <a class="direct-link" href="#1.-busqueda-de-caracteristicas" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Buscas si flexbox es soportado --></span>
+<span class="token comment">&lt;!-- CaniEmail te muestra: --></span>
+<span class="token comment">&lt;!-- Gmail: Parcial --></span>
+<span class="token comment">&lt;!-- Outlook: No --></span>
+<span class="token comment">&lt;!-- Apple Mail: Sí --></span></code></pre>
+<h3 id="2.-filtrado-por-cliente" tabindex="-1">2. Filtrado por Cliente <a class="direct-link" href="#2.-filtrado-por-cliente" aria-hidden="true">#</a></h3>
+<p>Puedes filtrar resultados por:</p>
+<ul>
+<li>Cliente específico</li>
+<li>Versión del cliente</li>
+<li>Tipo de soporte (parcial, completo, no)</li>
+</ul>
+<h3 id="3.-comparacion-de-caracteristicas" tabindex="-1">3. Comparación de Características <a class="direct-link" href="#3.-comparacion-de-caracteristicas" aria-hidden="true">#</a></h3>
+<p>Compara múltiples características para:</p>
+<ul>
+<li>Planificar tu estrategia</li>
+<li>Identificar limitaciones</li>
+<li>Encontrar alternativas</li>
+</ul>
+<h2 id="ejemplos-practicos" tabindex="-1">Ejemplos Prácticos <a class="direct-link" href="#ejemplos-practicos" aria-hidden="true">#</a></h2>
+<h3 id="css-grid-en-email" tabindex="-1">CSS Grid en Email <a class="direct-link" href="#css-grid-en-email" aria-hidden="true">#</a></h3>
+<pre class="language-css"><code class="language-css"><span class="token comment">/* ¿Funciona CSS Grid? */</span>
+<span class="token selector">.email-container</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+  <span class="token property">grid-template-columns</span><span class="token punctuation">:</span> 1fr 1fr<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p><strong>Resultado CaniEmail:</strong></p>
+<ul>
+<li>Gmail: ❌ No soportado</li>
+<li>Outlook: ❌ No soportado</li>
+<li>Apple Mail: ✅ Soportado</li>
+<li>iOS Mail: ✅ Soportado</li>
+</ul>
+<h3 id="background-images" tabindex="-1">Background Images <a class="direct-link" href="#background-images" aria-hidden="true">#</a></h3>
+<pre class="language-css"><code class="language-css"><span class="token comment">/* ¿Funcionan fondos de imagen? */</span>
+<span class="token selector">.email-bg</span> <span class="token punctuation">{</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">'bg.jpg'</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+  <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p><strong>Resultado CaniEmail:</strong></p>
+<ul>
+<li>Gmail: ⚠️ Parcial (con limitaciones)</li>
+<li>Outlook: ⚠️ Parcial (VML requerido)</li>
+<li>Apple Mail: ✅ Soportado</li>
+<li>iOS Mail: ✅ Soportado</li>
+</ul>
+<h2 id="integracion-en-flujo-de-trabajo" tabindex="-1">Integración en Flujo de Trabajo <a class="direct-link" href="#integracion-en-flujo-de-trabajo" aria-hidden="true">#</a></h2>
+<h3 id="1.-antes-de-disenar" tabindex="-1">1. Antes de Diseñar <a class="direct-link" href="#1.-antes-de-disenar" aria-hidden="true">#</a></h3>
+<p>Consulta CaniEmail para:</p>
+<ul>
+<li>Verificar soporte de propiedades CSS</li>
+<li>Identificar limitaciones temprano</li>
+<li>Planificar fallbacks</li>
+</ul>
+<h3 id="2.-durante-desarrollo" tabindex="-1">2. Durante Desarrollo <a class="direct-link" href="#2.-durante-desarrollo" aria-hidden="true">#</a></h3>
+<p>Usa CaniEmail para:</p>
+<ul>
+<li>Resolver problemas de compatibilidad</li>
+<li>Encontrar alternativas</li>
+<li>Validar tu código</li>
+</ul>
+<h3 id="3.-antes-de-enviar" tabindex="-1">3. Antes de Enviar <a class="direct-link" href="#3.-antes-de-enviar" aria-hidden="true">#</a></h3>
+<p>Verifica en CaniEmail:</p>
+<ul>
+<li>Compatibilidad final</li>
+<li>Casos edge</li>
+<li>Recomendaciones de la comunidad</li>
+</ul>
+<h2 id="caracteristicas-avanzadas" tabindex="-1">Características Avanzadas <a class="direct-link" href="#caracteristicas-avanzadas" aria-hidden="true">#</a></h2>
+<h3 id="1.-data-export" tabindex="-1">1. Data Export <a class="direct-link" href="#1.-data-export" aria-hidden="true">#</a></h3>
+<p>Exporta datos en:</p>
+<ul>
+<li>CSV</li>
+<li>JSON</li>
+<li>PDF</li>
+</ul>
+<h3 id="2.-api-access" tabindex="-1">2. API Access <a class="direct-link" href="#2.-api-access" aria-hidden="true">#</a></h3>
+<p>Acceso programático para:</p>
+<ul>
+<li>Integración con herramientas</li>
+<li>Automatización de testing</li>
+<li>Reportes personalizados</li>
+</ul>
+<h3 id="3.-community-features" tabindex="-1">3. Community Features <a class="direct-link" href="#3.-community-features" aria-hidden="true">#</a></h3>
+<ul>
+<li>Contribuciones de usuarios</li>
+<li>Reportes de bugs</li>
+<li>Mejoras sugeridas</li>
+</ul>
+<h2 id="alternativas-y-complementos" tabindex="-1">Alternativas y Complementos <a class="direct-link" href="#alternativas-y-complementos" aria-hidden="true">#</a></h2>
+<h3 id="email-on-acid" tabindex="-1">Email on Acid <a class="direct-link" href="#email-on-acid" aria-hidden="true">#</a></h3>
+<ul>
+<li>Testing visual completo</li>
+<li>Screenshots en múltiples clientes</li>
+<li>Análisis de rendimiento</li>
+</ul>
+<h3 id="litmus" tabindex="-1">Litmus <a class="direct-link" href="#litmus" aria-hidden="true">#</a></h3>
+<ul>
+<li>Testing avanzado</li>
+<li>Análisis de spam</li>
+<li>Integración con ESPs</li>
+</ul>
+<h3 id="parcel" tabindex="-1">Parcel <a class="direct-link" href="#parcel" aria-hidden="true">#</a></h3>
+<ul>
+<li>Validación de código</li>
+<li>Sugerencias de mejora</li>
+<li>Integración con CaniEmail</li>
+</ul>
+<h2 id="mejores-practicas-con-caniemail" tabindex="-1">Mejores Prácticas con CaniEmail <a class="direct-link" href="#mejores-practicas-con-caniemail" aria-hidden="true">#</a></h2>
+<h3 id="1.-verifica-siempre" tabindex="-1">1. Verifica Siempre <a class="direct-link" href="#1.-verifica-siempre" aria-hidden="true">#</a></h3>
+<p>Antes de usar una nueva propiedad:</p>
+<ol>
+<li>Busca en CaniEmail</li>
+<li>Revisa el nivel de soporte</li>
+<li>Planifica fallbacks</li>
+</ol>
+<h3 id="2.-documenta-limitaciones" tabindex="-1">2. Documenta Limitaciones <a class="direct-link" href="#2.-documenta-limitaciones" aria-hidden="true">#</a></h3>
+<p>Mantén un registro de:</p>
+<ul>
+<li>Características no soportadas</li>
+<li>Workarounds utilizados</li>
+<li>Decisiones tomadas</li>
+</ul>
+<h3 id="3.-educa-al-equipo" tabindex="-1">3. Educa al Equipo <a class="direct-link" href="#3.-educa-al-equipo" aria-hidden="true">#</a></h3>
+<p>Comparte con tu equipo:</p>
+<ul>
+<li>Enlaces a características específicas</li>
+<li>Guías de compatibilidad</li>
+<li>Mejores prácticas</li>
+</ul>
+<h2 id="casos-de-uso-reales" tabindex="-1">Casos de Uso Reales <a class="direct-link" href="#casos-de-uso-reales" aria-hidden="true">#</a></h2>
+<h3 id="caso-1:-responsive-design" tabindex="-1">Caso 1: Responsive Design <a class="direct-link" href="#caso-1:-responsive-design" aria-hidden="true">#</a></h3>
+<pre class="language-css"><code class="language-css"><span class="token comment">/* Media queries para mobile */</span>
+<span class="token atrule"><span class="token rule">@media</span> screen <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">max-width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  <span class="token selector">.responsive</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100% <span class="token important">!important</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+<p><strong>CaniEmail muestra:</strong> Soporte variado por cliente</p>
+<h3 id="caso-2:-interactive-elements" tabindex="-1">Caso 2: Interactive Elements <a class="direct-link" href="#caso-2:-interactive-elements" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Botones interactivos --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  Click me
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p><strong>CaniEmail muestra:</strong> Soporte limitado en Outlook</p>
+<h2 id="conclusion" tabindex="-1">Conclusión <a class="direct-link" href="#conclusion" aria-hidden="true">#</a></h2>
+<p><strong>CaniEmail</strong> es una herramienta indispensable para cualquier email developer. No solo te ahorra tiempo, sino que también mejora la calidad de tus emails y reduce la frustración del desarrollo.</p>
+<div class="hightlightText">
+    <strong>Pro Tip:</strong> Añade CaniEmail a tus bookmarks y úsalo como parte de tu proceso de desarrollo. Te ahorrará horas de debugging y testing.
+</div>
+<h2 id="recursos-adicionales" tabindex="-1">Recursos Adicionales <a class="direct-link" href="#recursos-adicionales" aria-hidden="true">#</a></h2>
+<ul>
+<li><a href="https://www.caniemail.com/">CaniEmail Website</a></li>
+<li><a href="https://email.geeks.chat/">Email Development Community</a></li>
+<li><a href="https://emailmarkup.org/">Email Standards</a></li>
+</ul>
+<p>¿Usas CaniEmail en tu flujo de trabajo? Comparte tu experiencia en los comentarios.</p>
+
+        </div>
+        <!-- conversation -->
+        <div class="col-12 noPadding conversation text-center">
+            <a href="https://twitter.com/Ro_Santander" target="_blank" rel="nofollow noopener">
+                <i class="bi bi-twitter"></i> <b>Sigue la conversación en Twitter</b></a>
+            <p class="smallTxt">
+                Sigo buscando como agregar comentarios 😂
+                <br>
+                También puedes <a href="mailto:friendsofemail@gmail.com?subject=Nota CaniEmail, la guía indispensable para email developers">escribirme</a> por correo.
+            </p>
+        </div>
+    </div>
+    <!-- author -->
+<div class="col-12 noPadding author">
+    <div class="row row-eq-height align-items-center">
+        <div class="col-12 col-md-3 authorPic mb-4 mb-md-0 text-center">
+            <img src="/img/author-01-rodrigo.png" alt="Rodrigo Santander" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-9 authorProfile">
+            <small>
+                Sobre el autor
+            </small>
+            <p class="name">
+                <b>
+                    Rodrigo Santander
+                </b>
+                    / Martech Solution Architect
+            </p>
+            <p>
+                Email geek, me encanta aprender cosas nuevas, encontrar soluciones a problemas de marketing, diseño y martech. Actualmente trabajo como Solution Architect en Orange Digital.
+            </p>
+            <p class="follow">
+                Sígueme en 
+                <a href="https://twitter.com/Ro_Santander" target="_blank" rel="nofollow noreferral"><i class="bi bi-twitter"></i> Twitter</a>
+                y en 
+                <a href="https://www.linkedin.com/in/rodrigo-santander/" target="_blank" rel="nofollow noreferral">
+                    <i class="bi bi-linkedin"></i> Linkedin
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+    <div class="row newsletterRow justify-content-center">
+    <!-- newsletter -->
+    <div class="col-12 col-md-11 noPadding newsletter">
+        <div class="row row-eq-height align-items-center">
+            <div class="col-12 col-md-4 text-center">
+                <img src="/img/img-boxy.png" alt="Boxy" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-8">
+                <h3>
+                    Suscríbete a nuestro newsletter
+                </h3>
+                <p>
+                    ¡Sí! Envíame el newsletter de Mailtopia. Acepto expresamente recibir el newsletter y entiendo que puedo darme de baja fácilmente en cualquier momento.
+                </p>
+                
+                <!--  -->
+                <div class="col-12 noPadding">
+                    <div id="revue-embed">
+                        <form action="https://www.getrevue.co/profile/friendsofemail/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+                        <div class="revue-form-group">
+                          <label for="member_email">Tu email</label>
+                          <input class="revue-form-field input" placeholder="tu cuenta de correo..." type="email" name="member[email]" id="member_email">
+                        </div>
+                        <div class="revue-form-group">
+                          <label for="member_first_name">Tu Nombre <span class="optional"></span></label>
+                          <input class="revue-form-field input" placeholder="Tu nombre es..." type="text" name="member[first_name]" id="member_first_name">
+                        </div>
+                        <div class="revue-form-actions">
+                          <input type="submit" value="Suscríbete" name="member[subscribe]" id="member_submit" class="btn btnMain">
+                        </div>
+                        <div class="revue-form-footer mt-4 mb-4">
+                            Al suscribirte, estás de acuerdo con los
+                             <a target="_blank" href="https://www.getrevue.co/terms">Términos de servicio</a> y <a target="_blank" href="https://www.getrevue.co/privacy">Política de Privacidad</a> de Revue.</div>
+                        </form>
+                      </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+        </main>
+        
+        <!-- footer -->
+<footer class="col-12 noPadding footer">
+    <div class="row row-eq-height align-items-center">
+        <div class="col-12 col-md-3 text-center">
+            <!-- link a home -->
+            <a href="/">
+                <img src="/img/logo-friends-en.png" alt="Friends of Email" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-12 col-md-9 socialMedia">
+            <a href="/slack/" target="_blank" rel="nofollow noreferral"><i class="bi bi-slack"></i></a>
+            <a href="https://www.linkedin.com/company/friends-of-email" target="_blank" rel="nofollow noreferral"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/Ro_Santander" target="_blank" rel="nofollow noreferral"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UC-G7a2zDhVzQT7pFSDAMEPg" target="_blank" rel="nofollow noreferral"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.tiktok.com/@friendsofemail" target="_blank" rel="nofollow noreferral"><i class="bi bi-tiktok"></i></a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

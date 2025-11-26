@@ -1,0 +1,520 @@
+<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Video: Bulletproof buttons en Salesforce Marketing Cloud - Friends of Email</title>
+    <meta name="description" content="Optimiza los botones en emails creados desde Salesforce Marketing Cloud. Más allá del elemento nativo de botón de SFMC, utiliza Bulletproof buttons para que tus botones mantengan su forma en Outlook, Gmail y otros clientes de correo.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://friendsofemail.com/img/favico.png" />
+    
+    <!-- Facebook metadata -->
+    <link rel="image_src" href="https://friendsofemail.com/img/01-notas/006/fbimg.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Video: Bulletproof buttons en Salesforce Marketing Cloud" />
+    <meta property="og:description" content="Optimiza los botones en emails creados desde Salesforce Marketing Cloud. Más allá del elemento nativo de botón de SFMC, utiliza Bulletproof buttons para que tus botones mantengan su forma en Outlook, Gmail y otros clientes de correo." />
+    <meta property="og:image" content="https://friendsofemail.com/img/01-notas/006/fbimg.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- Twitter Cards -->
+    <meta property="twitter:creator" content="@Ro_Santander" />
+    <meta property="twitter:url" content="https://friendsofemail.com" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@Ro_Santander" />
+    <meta property="twitter:title" content="Video: Bulletproof buttons en Salesforce Marketing Cloud" />
+    <meta property="twitter:description" content="Optimiza los botones en emails creados desde Salesforce Marketing Cloud. Más allá del elemento nativo de botón de SFMC, utiliza Bulletproof buttons para que tus botones mantengan su forma en Outlook, Gmail y otros clientes de correo." />
+    <meta property="twitter:image:src" content="https://friendsofemail.com/img/01-notas/006/fbimg.jpg" />
+    <meta property="twitter:image:width" content="1200" />
+    <meta property="twitter:image:height" content="630" />
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/a11y-dark.css">
+</head>
+<body>
+    <div class="container containerMax" style="min-height: 100vh;">
+        <!-- NavBar -->
+<nav class="col-12 noPadding">
+    <div class="row row-eq-height align-items-center">
+        <div class="col-4 col-sm-3">
+            <a href="/">
+                <img src="/img/logo-friends-en.png" alt="Friends of Email" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-8 col-sm-9 navLinks">
+            <a href="/" >
+                Blog
+            </a>
+            <a href="/nosotros/" >
+                Nosotros
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- navBlog -->
+<div class="col-12 noPadding navBlog align-items-center">
+    <span>
+        Temas:
+    </span>
+    <a class="btn btnMain firstBtn" href="#EmailCode">
+        Email Code
+    </a>
+    <a class="btn btnMain btnUnactive" href="#EmailWorld">
+        Email
+    </a>
+    <a class="btn btnMain btnUnactive" href="#SFMC">
+        SFMC
+    </a>
+    <a class="btn btnMain btnUnactive" href="#todo">
+        Todo
+    </a>
+</div>
+
+        
+        <main>
+            
+<!-- mainContent -->
+<section class="col-12 mainContent">
+    <div class="row mainContentRow">
+        <!-- breadcrumbs -->
+        <div class="col-12 noPadding">
+            <div class="row row-eq-height">
+                <div class="col-12 col-md-6">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Blog</a></li>
+                            <li class="breadcrumb-item"><a href="/">Email</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">🗓️ 6 noviembre 2022</li>
+                        </ol>
+                    </nav>    
+                </div>
+                <div class="col-12 col-md-6 titleAuthor">
+                    <img src="/img/author-01-rodrigo.png" alt="" class="titleAuthorImg">
+                    <span>Rodrigo Santander</span>
+                </div>
+            </div>
+        </div>
+        <!-- title -->
+        <div class="col-12 noPadding imgTitle">
+            <h1>Video: Bulletproof buttons en Salesforce Marketing Cloud</h1>
+            
+                <img src="/img/01-notas/006/img-title.jpg" alt="Bulletproof buttons en Salesforce Marketing Cloud" class="img-fluid imgRound">
+            
+        </div>
+        <!-- postContent -->
+        <div class="col-12 noPadding postContent">
+            <p>Los botones en emails son uno de los elementos más problemáticos del desarrollo de email. Si has trabajado con <strong>Salesforce Marketing Cloud (SFMC)</strong>, sabes que el botón nativo no siempre funciona como esperamos en todos los clientes de correo.</p>
+<h2 id="que-son-los-bulletproof-buttons" tabindex="-1">¿Qué son los Bulletproof Buttons? <a class="direct-link" href="#que-son-los-bulletproof-buttons" aria-hidden="true">#</a></h2>
+<p>Los <strong>Bulletproof buttons</strong> son botones de email diseñados para funcionar consistentemente en todos los clientes de correo, incluyendo los más problemáticos como Outlook.</p>
+<div class="hightlightText">
+    <strong>¿Por qué "bulletproof"?</strong> Porque están construidos para ser resistentes a los problemas de renderizado que afectan a los botones tradicionales en email.
+</div>
+<h2 id="el-problema-con-los-botones-en-email" tabindex="-1">El Problema con los Botones en Email <a class="direct-link" href="#el-problema-con-los-botones-en-email" aria-hidden="true">#</a></h2>
+<h3 id="clientes-de-correo-problematicos" tabindex="-1">Clientes de Correo Problemáticos <a class="direct-link" href="#clientes-de-correo-problematicos" aria-hidden="true">#</a></h3>
+<p><strong>Outlook</strong> es el principal culpable de los problemas con botones:</p>
+<ul>
+<li>No soporta CSS <code>padding</code> en botones</li>
+<li>Renderiza incorrectamente <code>border-radius</code></li>
+<li>Ignora algunas propiedades CSS</li>
+</ul>
+<p><strong>Gmail</strong> también tiene limitaciones:</p>
+<ul>
+<li>Soporte parcial de CSS</li>
+<li>Problemas con ciertos estilos</li>
+<li>Renderizado inconsistente</li>
+</ul>
+<h3 id="boton-nativo-de-sfmc" tabindex="-1">Botón Nativo de SFMC <a class="direct-link" href="#boton-nativo-de-sfmc" aria-hidden="true">#</a></h3>
+<p>El botón nativo de Salesforce Marketing Cloud:</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Botón nativo SFMC --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">background-color</span><span class="token punctuation">:</span> #000<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span> 10px 20px<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+    Click Aquí
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p><strong>Problemas:</strong></p>
+<ul>
+<li>Funciona bien en Gmail y Apple Mail</li>
+<li>Se rompe en Outlook</li>
+<li>Padding no funciona correctamente</li>
+<li>Border-radius ignorado</li>
+</ul>
+<h2 id="solucion:-bulletproof-buttons" tabindex="-1">Solución: Bulletproof Buttons <a class="direct-link" href="#solucion:-bulletproof-buttons" aria-hidden="true">#</a></h2>
+<h3 id="tecnica-vml-para-outlook" tabindex="-1">Técnica VML para Outlook <a class="direct-link" href="#tecnica-vml-para-outlook" aria-hidden="true">#</a></h3>
+<p>La solución para Outlook es usar <strong>VML (Vector Markup Language)</strong>:</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!--[if mso]>
+  &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" strokecolor="#1e3650" fillcolor="#1e3650">
+    &lt;w:anchorlock/>
+    &lt;center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Click Aquí&lt;/center>
+  &lt;/v:roundrect>
+&lt;![endif]--></span></code></pre>
+<h3 id="codigo-bulletproof-completo" tabindex="-1">Código Bulletproof Completo <a class="direct-link" href="#codigo-bulletproof-completo" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://tuenlace.com" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="#000" fillcolor="#000">
+      &lt;w:anchorlock/>
+      &lt;center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">Click Aquí&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>#000<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://tuenlace.com<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>16px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#ffffff<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>12px 25px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>1px solid #000<span class="token punctuation">;</span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>Click Aquí<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h2 id="implementacion-en-salesforce-marketing-cloud" tabindex="-1">Implementación en Salesforce Marketing Cloud <a class="direct-link" href="#implementacion-en-salesforce-marketing-cloud" aria-hidden="true">#</a></h2>
+<h3 id="metodo-1:-content-block" tabindex="-1">Método 1: Content Block <a class="direct-link" href="#metodo-1:-content-block" aria-hidden="true">#</a></h3>
+<p>Crea un Content Block reutilizable:</p>
+<ol>
+<li><strong>Ve a Content</strong> → <strong>Create</strong> → <strong>Content Block</strong></li>
+<li><strong>Selecciona &quot;Free Form&quot;</strong></li>
+<li><strong>Pega el código del bulletproof button</strong></li>
+<li><strong>Guarda como &quot;Bulletproof Button&quot;</strong></li>
+</ol>
+<h3 id="metodo-2:-template-block" tabindex="-1">Método 2: Template Block <a class="direct-link" href="#metodo-2:-template-block" aria-hidden="true">#</a></h3>
+<p>Añade directamente en tu template:</p>
+<pre class="language-html"><code class="language-html">%%[ 
+  @buttonText = "Suscríbete Ahora"
+  @buttonUrl = "https://ejemplo.com/suscripcion"
+  @buttonColor = "#000000"
+  @textColor = "#ffffff"
+]%%
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%%=RedirectTo(@buttonUrl)=%%" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="%%=v(@buttonColor)=%%" fillcolor="%%=v(@buttonColor)=%%">
+      &lt;w:anchorlock/>
+      &lt;center style="color:%%=v(@textColor)=%%;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">%%=v(@buttonText)=%%&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>%%=<span class="token function">v</span><span class="token punctuation">(</span><span class="token atrule"><span class="token rule">@buttonColor</span><span class="token punctuation">)</span>=%%<span class="token punctuation">;</span></span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>%%=RedirectTo(@buttonUrl)=%%<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>16px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>%%=<span class="token function">v</span><span class="token punctuation">(</span><span class="token atrule"><span class="token rule">@textColor</span><span class="token punctuation">)</span>=%%<span class="token punctuation">;</span></span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>12px 25px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>1px solid %%=<span class="token function">v</span><span class="token punctuation">(</span><span class="token atrule"><span class="token rule">@buttonColor</span><span class="token punctuation">)</span>=%%<span class="token punctuation">;</span></span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>%%=v(@buttonText)=%%<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="metodo-3:-ampscript-dinamico" tabindex="-1">Método 3: AMPscript Dinámico <a class="direct-link" href="#metodo-3:-ampscript-dinamico" aria-hidden="true">#</a></h3>
+<p>Crea botones dinámicos basados en datos:</p>
+<pre class="language-html"><code class="language-html">%%[
+  SET @rows = LookupRows("BotonesData","CampaignID", @campaignID)
+  IF RowCount(@rows) > 0 THEN
+    SET @row = Row(@rows,1)
+    SET @buttonText = Field(@row,"ButtonText")
+    SET @buttonUrl = Field(@row,"ButtonUrl")
+    SET @buttonColor = Field(@row,"ButtonColor")
+  ENDIF
+]%%
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%%=RedirectTo(@buttonUrl)=%%" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="%%=v(@buttonColor)=%%" fillcolor="%%=v(@buttonColor)=%%">
+      &lt;w:anchorlock/>
+      &lt;center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">%%=v(@buttonText)=%%&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>%%=<span class="token function">v</span><span class="token punctuation">(</span><span class="token atrule"><span class="token rule">@buttonColor</span><span class="token punctuation">)</span>=%%<span class="token punctuation">;</span></span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>%%=RedirectTo(@buttonUrl)=%%<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>16px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#ffffff<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>12px 25px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>1px solid %%=<span class="token function">v</span><span class="token punctuation">(</span><span class="token atrule"><span class="token rule">@buttonColor</span><span class="token punctuation">)</span>=%%<span class="token punctuation">;</span></span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>%%=v(@buttonText)=%%<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h2 id="personalizacion-de-botones" tabindex="-1">Personalización de Botones <a class="direct-link" href="#personalizacion-de-botones" aria-hidden="true">#</a></h2>
+<h3 id="tamanos-predefinidos" tabindex="-1">Tamaños Predefinidos <a class="direct-link" href="#tamanos-predefinidos" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Botón Pequeño --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:35px;v-text-anchor:middle;width:150px;" arcsize="15%" strokecolor="#000" fillcolor="#000">
+      &lt;w:anchorlock/>
+      &lt;center style="color:#ffffff;font-family:Arial,sans-serif;font-size:12px;font-weight:bold;">Click&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>6px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>#000<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>12px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#ffffff<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>6px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>8px 20px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>1px solid #000<span class="token punctuation">;</span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>Click<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token comment">&lt;!-- Botón Grande --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:60px;v-text-anchor:middle;width:250px;" arcsize="15%" strokecolor="#000" fillcolor="#000">
+      &lt;w:anchorlock/>
+      &lt;center style="color:#ffffff;font-family:Arial,sans-serif;font-size:18px;font-weight:bold;">Click Aquí Ahora&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>#000<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>18px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#ffffff<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>10px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>15px 30px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>1px solid #000<span class="token punctuation">;</span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>Click Aquí Ahora<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="colores-y-estilos" tabindex="-1">Colores y Estilos <a class="direct-link" href="#colores-y-estilos" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Botón Rojo --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="#e74c3c" fillcolor="#e74c3c">
+      &lt;w:anchorlock/>
+      &lt;center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">Comprar Ahora&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>#e74c3c<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>16px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#ffffff<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>12px 25px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>1px solid #e74c3c<span class="token punctuation">;</span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>Comprar Ahora<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token comment">&lt;!-- Botón con Borde --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--[if mso]>
+    &lt;v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="15%" strokecolor="#000" fillcolor="#ffffff">
+      &lt;w:anchorlock/>
+      &lt;center style="color:#000;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">Ver Más&lt;/center>
+    &lt;/v:roundrect>
+  &lt;![endif]--></span>
+  
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span>#ffffff<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>2px solid #000<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span>16px<span class="token punctuation">;</span> <span class="token property">font-family</span><span class="token punctuation">:</span>Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#000<span class="token punctuation">;</span> <span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>8px<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>10px 23px<span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span>2px solid #000<span class="token punctuation">;</span> <span class="token property">display</span><span class="token punctuation">:</span>inline-block<span class="token punctuation">;</span> <span class="token property">font-weight</span><span class="token punctuation">:</span>bold<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>Ver Más<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!--&lt;![endif]--></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h2 id="testing-y-validacion" tabindex="-1">Testing y Validación <a class="direct-link" href="#testing-y-validacion" aria-hidden="true">#</a></h2>
+<h3 id="herramientas-de-testing" tabindex="-1">Herramientas de Testing <a class="direct-link" href="#herramientas-de-testing" aria-hidden="true">#</a></h3>
+<ol>
+<li>
+<p><strong>Litmus</strong></p>
+<ul>
+<li>Screenshots en 70+ clientes</li>
+<li>Análisis de renderizado</li>
+<li>Testing de enlaces</li>
+</ul>
+</li>
+<li>
+<p><strong>Email on Acid</strong></p>
+<ul>
+<li>Testing completo</li>
+<li>Análisis de código</li>
+<li>Validación de spam</li>
+</ul>
+</li>
+<li>
+<p><strong>Campaign Precheck</strong></p>
+<ul>
+<li>Integración con SFMC</li>
+<li>Testing automatizado</li>
+<li>Validación de contenido</li>
+</ul>
+</li>
+</ol>
+<h3 id="checklist-de-validacion" tabindex="-1">Checklist de Validación <a class="direct-link" href="#checklist-de-validacion" aria-hidden="true">#</a></h3>
+<ul>
+<li>[ ] Funciona en Outlook (todas las versiones)</li>
+<li>[ ] Funciona en Gmail</li>
+<li>[ ] Funciona en Apple Mail</li>
+<li>[ ] Responsive en mobile</li>
+<li>[ ] Enlaces funcionan correctamente</li>
+<li>[ ] Texto alternativo presente</li>
+<li>[ ] Colores consistentes</li>
+</ul>
+<h2 id="mejores-practicas" tabindex="-1">Mejores Prácticas <a class="direct-link" href="#mejores-practicas" aria-hidden="true">#</a></h2>
+<h3 id="1.-siempre-usa-vml-para-outlook" tabindex="-1">1. Siempre usa VML para Outlook <a class="direct-link" href="#1.-siempre-usa-vml-para-outlook" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">mso]</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!-- Código VML aquí --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>![endif]--</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="2.-fallback-para-otros-clientes" tabindex="-1">2. Fallback para otros clientes <a class="direct-link" href="#2.-fallback-para-otros-clientes" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--[if</span> <span class="token attr-name">!mso]</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span><span class="token punctuation">></span></span>
+  <span class="token comment">&lt;!-- Código estándar aquí --></span>
+<span class="token comment">&lt;!--&lt;![endif]--></span></code></pre>
+<h3 id="3.-usa-tablas-para-estructura" tabindex="-1">3. Usa tablas para estructura <a class="direct-link" href="#3.-usa-tablas-para-estructura" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token comment">&lt;!-- Botón aquí --></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="4.-personaliza-con-ampscript" tabindex="-1">4. Personaliza con AMPscript <a class="direct-link" href="#4.-personaliza-con-ampscript" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html">href="%%=RedirectTo(@buttonUrl)=%%"</code></pre>
+<h2 id="errores-comunes-a-evitar" tabindex="-1">Errores Comunes a Evitar <a class="direct-link" href="#errores-comunes-a-evitar" aria-hidden="true">#</a></h2>
+<h3 id="1.-olvidar-el-vml" tabindex="-1">1. Olvidar el VML <a class="direct-link" href="#1.-olvidar-el-vml" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- ❌ Incorrecto - solo funciona en clientes modernos --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">background</span><span class="token punctuation">:</span>#000<span class="token punctuation">;</span> <span class="token property">color</span><span class="token punctuation">:</span>#fff<span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span>10px 20px<span class="token punctuation">;</span> <span class="token property">border-radius</span><span class="token punctuation">:</span>5px<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>Click<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="2.-no-testing-en-outlook" tabindex="-1">2. No testing en Outlook <a class="direct-link" href="#2.-no-testing-en-outlook" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- ✅ Siempre prueba en Outlook antes de enviar --></span></code></pre>
+<h3 id="3.-ignorar-mobile" tabindex="-1">3. Ignorar mobile <a class="direct-link" href="#3.-ignorar-mobile" aria-hidden="true">#</a></h3>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- ✅ Asegúrate que sea responsive --></span></code></pre>
+<h2 id="video-tutorial" tabindex="-1">Video Tutorial <a class="direct-link" href="#video-tutorial" aria-hidden="true">#</a></h2>
+<div class="col-12 text-center mt-4 pt-4 mb-4 pb-4">
+    <h4>🎥 Video Tutorial Completo</h4>
+    <p>En este video te muestro paso a paso cómo implementar bulletproof buttons en Salesforce Marketing Cloud:</p>
+<p><div class="facebookResponsive"><br>
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffriendsofemail%2Fvideos%2F123456789%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe><br>
+</div></p>
+</div>
+<h2 id="conclusion" tabindex="-1">Conclusión <a class="direct-link" href="#conclusion" aria-hidden="true">#</a></h2>
+<p>Los <strong>bulletproof buttons</strong> son esenciales para emails profesionales en Salesforce Marketing Cloud. Aunque requieren más código que los botones nativos, garantizan una experiencia consistente en todos los clientes de correo.</p>
+<div class="hightlightText">
+    <strong>Recuerda:</strong> Un botón que no funciona correctamente en Outlook puede costarte conversiones importantes. Invierte tiempo en implementar bulletproof buttons correctamente.
+</div>
+<h2 id="recursos-adicionales" tabindex="-1">Recursos Adicionales <a class="direct-link" href="#recursos-adicionales" aria-hidden="true">#</a></h2>
+<ul>
+<li><a href="https://www.campaignmonitor.com/blog/email-marketing/2014/bulletproof-button-guide/">Campaign Monitor Bulletproof Buttons</a></li>
+<li><a href="https://litmus.com/blog/the-ultimate-guide-to-bulletproof-buttons-in-email-design/">Litmus Button Guide</a></li>
+<li><a href="https://www.emailonacid.com/blog/article/email-development/the-ultimate-guide-to-bulletproof-buttons-in-email-design">Email on Acid Button Testing</a></li>
+</ul>
+<p>¿Tienes problemas con botones en SFMC? Déjame tu duda en los comentarios y con gusto te ayudaré.</p>
+
+        </div>
+        <!-- conversation -->
+        <div class="col-12 noPadding conversation text-center">
+            <a href="https://twitter.com/Ro_Santander" target="_blank" rel="nofollow noopener">
+                <i class="bi bi-twitter"></i> <b>Sigue la conversación en Twitter</b></a>
+            <p class="smallTxt">
+                Sigo buscando como agregar comentarios 😂
+                <br>
+                También puedes <a href="mailto:friendsofemail@gmail.com?subject=Nota Video: Bulletproof buttons en Salesforce Marketing Cloud">escribirme</a> por correo.
+            </p>
+        </div>
+    </div>
+    <!-- author -->
+<div class="col-12 noPadding author">
+    <div class="row row-eq-height align-items-center">
+        <div class="col-12 col-md-3 authorPic mb-4 mb-md-0 text-center">
+            <img src="/img/author-01-rodrigo.png" alt="Rodrigo Santander" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-9 authorProfile">
+            <small>
+                Sobre el autor
+            </small>
+            <p class="name">
+                <b>
+                    Rodrigo Santander
+                </b>
+                    / Martech Solution Architect
+            </p>
+            <p>
+                Email geek, me encanta aprender cosas nuevas, encontrar soluciones a problemas de marketing, diseño y martech. Actualmente trabajo como Solution Architect en Orange Digital.
+            </p>
+            <p class="follow">
+                Sígueme en 
+                <a href="https://twitter.com/Ro_Santander" target="_blank" rel="nofollow noreferral"><i class="bi bi-twitter"></i> Twitter</a>
+                y en 
+                <a href="https://www.linkedin.com/in/rodrigo-santander/" target="_blank" rel="nofollow noreferral">
+                    <i class="bi bi-linkedin"></i> Linkedin
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+    <div class="row newsletterRow justify-content-center">
+    <!-- newsletter -->
+    <div class="col-12 col-md-11 noPadding newsletter">
+        <div class="row row-eq-height align-items-center">
+            <div class="col-12 col-md-4 text-center">
+                <img src="/img/img-boxy.png" alt="Boxy" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-8">
+                <h3>
+                    Suscríbete a nuestro newsletter
+                </h3>
+                <p>
+                    ¡Sí! Envíame el newsletter de Mailtopia. Acepto expresamente recibir el newsletter y entiendo que puedo darme de baja fácilmente en cualquier momento.
+                </p>
+                
+                <!--  -->
+                <div class="col-12 noPadding">
+                    <div id="revue-embed">
+                        <form action="https://www.getrevue.co/profile/friendsofemail/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+                        <div class="revue-form-group">
+                          <label for="member_email">Tu email</label>
+                          <input class="revue-form-field input" placeholder="tu cuenta de correo..." type="email" name="member[email]" id="member_email">
+                        </div>
+                        <div class="revue-form-group">
+                          <label for="member_first_name">Tu Nombre <span class="optional"></span></label>
+                          <input class="revue-form-field input" placeholder="Tu nombre es..." type="text" name="member[first_name]" id="member_first_name">
+                        </div>
+                        <div class="revue-form-actions">
+                          <input type="submit" value="Suscríbete" name="member[subscribe]" id="member_submit" class="btn btnMain">
+                        </div>
+                        <div class="revue-form-footer mt-4 mb-4">
+                            Al suscribirte, estás de acuerdo con los
+                             <a target="_blank" href="https://www.getrevue.co/terms">Términos de servicio</a> y <a target="_blank" href="https://www.getrevue.co/privacy">Política de Privacidad</a> de Revue.</div>
+                        </form>
+                      </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+        </main>
+        
+        <!-- footer -->
+<footer class="col-12 noPadding footer">
+    <div class="row row-eq-height align-items-center">
+        <div class="col-12 col-md-3 text-center">
+            <!-- link a home -->
+            <a href="/">
+                <img src="/img/logo-friends-en.png" alt="Friends of Email" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-12 col-md-9 socialMedia">
+            <a href="/slack/" target="_blank" rel="nofollow noreferral"><i class="bi bi-slack"></i></a>
+            <a href="https://www.linkedin.com/company/friends-of-email" target="_blank" rel="nofollow noreferral"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/Ro_Santander" target="_blank" rel="nofollow noreferral"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UC-G7a2zDhVzQT7pFSDAMEPg" target="_blank" rel="nofollow noreferral"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.tiktok.com/@friendsofemail" target="_blank" rel="nofollow noreferral"><i class="bi bi-tiktok"></i></a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
